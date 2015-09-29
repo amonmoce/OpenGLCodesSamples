@@ -45,7 +45,7 @@ void draw(){
 
 int main(int argc, char *argv[]){
   glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
+	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowPosition(100, 50);
 	glutInitWindowSize(800, 600);
 	glutCreateWindow("Depth Test");
